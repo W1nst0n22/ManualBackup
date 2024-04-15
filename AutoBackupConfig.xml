@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<backups>
+    <backup retain="5" retain_type="number">
+        <file>C:\Users\zfesler\Documents\MainDatabase.kdbx</file>
+        <location>C:\Users\zfesler\Downloads\backups_tests</location>
+    </backup>
+
+    <backup retain="5" retain_type="number">
+        <directory save_as="new_name">C:\Users\jhough\Downloads\test_zip</directory>
+        <location>C:\Users\zfesler\Downloads\backups_tests</location>
+    </backup>
+    <!--
+    <backup retain="amount_to_keep" retain_type"number>
+        <file>Full local filepath to backup</file>
+        <file>Full local filepath to backup</file>
+        <directory save_as="rename">Full local filepath to backup</directory>
+        <directory>Full local filepath to backup</directory>
+        <location>Directory to save the files</location>
+    </backup>
+    -->
+</backups>
